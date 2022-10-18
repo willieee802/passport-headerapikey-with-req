@@ -1,4 +1,4 @@
-# Passport-HeaderAPIKey
+# Passport-HeaderAPIKey-with-req
 
 Origin: [Passport-HeaderAPIKey](https://github.com/hydra-newmedia/passport-headerapikey)
 Pass req object(Not optional) to be the first parameter in verify function, to support nestjs passport module implementation
