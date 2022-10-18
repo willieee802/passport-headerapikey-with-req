@@ -5,7 +5,7 @@ Pass req object(Not optional) to be the first parameter in verify function, to s
 
 ## Installation
 
-    $ npm install @willieee802/passport-headerapikey
+    $ pnpm add passport-headerapikey-with-req
 
 ## Usage
 
