@@ -56,7 +56,7 @@ Arguments:
   - `header` (String): name of the header field to be used for api keys, default: _X-Api-Key_.
   - `prefix` (String): prefix to be used in content of the header, eg. `Bearer adsfadsfa`, default: empty. Attention: give it with blank if needed, eg. `'Bearer '`.
 - `verify` (Function):
-  - `req` (express.Request, optional): _express_ Request object if `passReqToCallback` is set to true.
+  - `req` (express.Request, optional): _express_ Request object.
   - `apiKey` (String): parsed API key from from the request. Use it to determine, which user is using your endpoint.
   - `verified` (Function): Callback to be called when you have done the API key handling. Signature: `verify(err, user, info) => void`.
     - `err` (Error): return an Error if user is not verified, otherwise yield `null` here
